@@ -32,3 +32,14 @@ Bu proje üniversiteler için ders programı oluşturmayı otomatikleştiren bir
 - 📊 Excel ve PDF çıktısı alma  
 
 ---
+
+##  Görseller
+
+<img width="1896" height="1016" alt="1." src="https://github.com/user-attachments/assets/f00feb13-3973-43e6-a3fa-3ab4271507c8" />
+<img width="1894" height="1016" alt="2." src="https://github.com/user-attachments/assets/c70279fb-5aab-404b-8865-f95227460b19" />
+<img width="1894" height="1015" alt="3." src="https://github.com/user-attachments/assets/cd14fbbd-fd9a-41ed-8f5b-fdff451eef60" />
+<img width="1895" height="1018" alt="4." src="https://github.com/user-attachments/assets/53438b5c-5731-4a4d-bafd-b1aaccbf902a" />
+<img width="1877" height="741" alt="5." src="https://github.com/user-attachments/assets/85f97c6a-34ac-4bf3-b8a0-449efdaf8d0b" />
+
+
+---
