@@ -15,7 +15,9 @@ kullanıcı dostu bir arayüz tasarlanmıştır.
 Editör:                      Visual Studio Code  
 Programlama dili:   Python  
 Veri tabanı:              SQLite  
+
 Kullanılan kütüphaneler: 
+
 • PyQt6:       Grafik kullanıcı arayüzü için  
 • openpyxl:  Excel dosyası oluşturma ve formatlama için  
 • pywin32:   Windows'ta Excel COM otomasyonu ile PDF dönüştürme için  
