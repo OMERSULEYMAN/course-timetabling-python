@@ -1,26 +1,34 @@
-Bu çalışmada, yükseköğretim kurumlarının en karmaşık planlama 
-problemlerinden biri olan Üniversite Ders Çizelgeleme Problemi için Yapay Zeka alt 
-alanlarından biri olan Kısıt Sağlama Problemi (CSP) tekniklerine dayalı akıllı bir karar 
-destek sistemi geliştirilmiştir. Ders programı hazırlama süreci; derslik kapasiteleri, 
-öğretim elemanı müsaitlikleri ve çakışmasızlık gibi "katı" kısıtlar ile öğretim elemanı 
-tercihleri gibi "esnek" kısıtların aynı anda yönetilmesini gerektiren, çözüm uzayının 
-devasa olduğu NP-Zor (NP hard) sınıfında bir kombinatoryal optimizasyon 
-problemidir. Çalışma kapsamında, Sembolik Yapay Zeka yaklaşımları temel alınarak 
-problem modellenmiş ve çözüm uzayını akıllı arama algoritmaları ile tarayan bir motor 
-geliştirilmiştir. Geliştirilen bu yapay zeka motoru, milyonlarca olası kombinasyon 
-arasından kısıtları ihlal etmeyen optimum sonucu bulmayı hedefler. Sistemin 
-kullanılabilirliğini artırmak amacıyla, veri yönetimi için SQLite tabanlı bir altyapı ve 
-kullanıcı dostu bir arayüz tasarlanmıştır.
+#  Ders Programı Oluşturmak İçin Masaüstü Uygulaması
 
-Editör:                      Visual Studio Code  
-Programlama dili:   Python  
-Veri tabanı:              SQLite  
+Bu proje üniversiteler için ders programı oluşturmayı otomatikleştiren bir masaüstü uygulamasıdır. Sistem, kısıt programlama (constraint programming) yaklaşımını kullanarak dersler, öğretim üyeleri, sınıflar ve zaman kısıtlarını yönetir ve çakışmasız, optimize edilmiş ders programları üretir. Bu proje, manuel olarak hazırlanması zor ve hataya açık olan ders programı oluşturma sürecini otomatikleştirerek, en uygun ve çakışmasız programların hızlı bir şekilde oluşturulmasını amaçlamaktadır.
 
-Kullanılan kütüphaneler: 
+---
 
-• PyQt6:       Grafik kullanıcı arayüzü için  
-• openpyxl:  Excel dosyası oluşturma ve formatlama için  
-• pywin32:   Windows'ta Excel COM otomasyonu ile PDF dönüştürme için  
-• sqlite3:       Veritabanı yönetimi için 
-• json:           Veri serileştirme için  
-• ortools:      Kısıt programlama ve optimizasyon motoru için 
+##  Kullanılan Teknolojiler
+
+- **Editör:** Visual Studio Code  
+- **Programlama Dili:** Python  
+- **Veritabanı:** SQLite  
+
+---
+
+##  Kullanılan Kütüphaneler
+
+- **PyQt6** → Grafik kullanıcı arayüzü (GUI) geliştirme  
+- **openpyxl** → Excel dosyası oluşturma ve formatlama  
+- **pywin32** → Windows ortamında Excel COM otomasyonu ile PDF dönüşümü  
+- **sqlite3** → Veritabanı yönetimi  
+- **json** → Veri serileştirme  
+- **ortools** → Kısıt programlama ve optimizasyon  
+
+---
+
+##  Özellikler
+
+- 📅 Otomatik ders programı oluşturma  
+- 👨‍🏫 Öğretim üyesi uygunluk kontrolü  
+- 🏫 Sınıf ve kapasite yönetimi  
+- ⏰ Zaman çakışmalarını engelleme  
+- 📊 Excel ve PDF çıktısı alma  
+
+---
