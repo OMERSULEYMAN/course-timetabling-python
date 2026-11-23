@@ -25,11 +25,11 @@ Bu proje üniversiteler için ders programı oluşturmayı otomatikleştiren bir
 
 ##  Özellikler
 
-- 📅 Otomatik ders programı oluşturma  
-- 👨‍🏫 Öğretim üyesi uygunluk kontrolü  
-- 🏫 Sınıf ve kapasite yönetimi  
-- ⏰ Zaman çakışmalarını engelleme  
-- 📊 Excel ve PDF çıktısı alma  
+-  Otomatik ders programı oluşturma  
+-  Öğretim üyesi uygunluk kontrolü  
+-  Sınıf ve kapasite yönetimi  
+-  Zaman çakışmalarını engelleme  
+-  Excel ve PDF çıktısı alma  
 
 ---
 
